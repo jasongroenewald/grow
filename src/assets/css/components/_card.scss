@@ -116,6 +116,7 @@
 .card-header {
   padding: $card-header-spacer-y $card-header-spacer-x;
   border-bottom: none;
+  background: none;
 
   &:first-child {
     @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);

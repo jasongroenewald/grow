@@ -6,133 +6,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-    <nav class="ab">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-4">
-                    <img src="src/assets/images/menu.svg" alt="Toggle">
+    <!--
+    <div class="ovl">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-header">
+                    <h4 class="card-title">Success!</h4>
                 </div>
-                <div class="d-none d-sm-block col-sm-4 offset-md-4">
-                    <img src="src/assets/images/logo.svg" alt="GrowNation">
-                </div>
-                <div class="col-12 col-sm-4">
-                    <a href="/registration.html" class="btn btn-green">Register</a>
-                    <a href="" class="btn btn-green-two">Login</a>
-                </div>
+                <p class="card-text">You have successfully  submitted your application</p>
+                <a href="/registration.html" class="btn btn-green">Done</a>
             </div>
         </div>
-    </nav>
-    <main>
+    </div>
+    -->
+    <nav class="flt">
         <div class="container">
-            <div class="row">
-                <div class="col-12 offset-md-1 col-md-10 offset-lg-3 col-lg-6 offset-xl-2 col-xl-8">
-                    <img src="src/assets/images/logo.svg" alt="GrowNation" class="ml d-block d-sm-none">
-                    <h1>Providing opportunities  to subsistence farmers in rural communities</h1>
-                    <a href="registration.html" class="btn btn-green btn-lng">Register now</a>
+            <div class="row align-items-center">
+                <div class="col-3 col-sm-4">
+                    <svg version="1.1" id="backarrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 30.2 23.6" style="enable-background:new 0 0 30.2 23.6;" xml:space="preserve">
+                    <path class="st0" d="M5.9,13.5l7.2,7.2c0.7,0.7,0.7,1.7,0,2.4c-0.7,0.7-1.7,0.7-2.4,0l-10-10c-0.7-0.7-0.7-1.7,0-2.4l10-10
+                        C11.3,0,12.4,0,13,0.6s0.7,1.7,0,2.4l-7.2,7.2h22.6c0.9,0,1.7,0.7,1.7,1.7s-0.7,1.7-1.7,1.7H5.9z"/>
+                    </svg>
                 </div>
-            </div>
-        </div>
-        <span class="grad-bar"></span>
-    </main>
-    <nav class="fx">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-sm-4">
                     <img src="src/assets/images/hz-c-logo.svg" alt="GrowNation">
                 </div>
-                <div class="col-6">
-                    <a href="/registration.html" class="btn btn-green">Register</a>
-                    <a href="" class="btn btn-green-two">Login</a>
-                </div>
             </div>
         </div>
     </nav>
-    <section class="container cps" id="atp">
-        <div class="row align-items-center">
-            <div class="col-12 col-md-6 col-lg-5 col-xl-6">
-                <img src="src/assets/images/woman.jpg" class="About the Programme">
-            </div>
-            <div class="col-12 col-md-6 offset-lg-1 col-lg-6 offset-xl-0 col-xl-6">
-                <h2>About the Programme</h2>
-                <p>GrowNation is a yearly programme that aims  to improve the lives of rural farmers with the opportunity to use their lands for commercial farming. We do this by providing training, raw materials, resources, constant monitoring and advice and guaranteed purchase of their full harvest at the end of the growing season.</p>
-            </div>
-        </div>
-    </section>
-    <section id="qut">
-        <img src="src/assets/images/rye.svg" alt="Rye" class="ico">
-        <h3 class="h2">The agricultural sector in South Africa employs more than 10%  of the country’s population. Any innovation ensuring higher  yields while keeping production costs low will have  wide-ranging impact.</h3>
-    </section>
-    <section class="container" id="tml">
+    <header class="c">
+        <h1>Register a farm</h1>
+    </header>
+    <form class="container">
         <div class="row">
-            <div class="col-12">
-                <img src="src/assets/images/tractor.svg" alt="Challenge Journey" class="ico">
-                <h3 class="h2">Challenge Journey</h3>
-                <ul>
-                    <li>
-                        <div class="card green">
-                            <div class="card-body">
-                                <div class="card-header">
-                                    <time datetime="2019-07-22">22</time> <time datetime="2019-07-28"> - 28 Jul</time>
-                                    <h4 class="card-title">Submit Application</h4>
-                                </div>
-                                <p class="card-text">Submit your application to join our programme for 2019</p>
+            <div class="col-12 col-md-10 offset-md-1">
+                <section class="container card green stc">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Personal information</h2>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="contactperson">Contact person<sup>*</sup></label>
+                                <input type="text" id="contactperson" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactnumber">Contact number<sup>*</sup></label>
+                                <input type="text" id="contactnumber" class="form-control" required>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="card blue">
-                            <div class="card-body">
-                                <div class="card-header">
-                                    <time datetime="2019-07-29">29 Jul</time> <time datetime="2019-09-15">- 15 Sep</time>
-                                    <h4 class="card-title">Multi-Level Selection Process</h4>
-                                </div>
-                                <p class="card-text">Each application will go through a selection process, including assessments of their land
-                                </p>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="idnumber">ID number<sup>*</sup></label>
+                                <input type="text" id="idnumber" class="form-control" required>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="card yellow">
-                            <div class="card-body">
-                                <div class="card-header">
-                                    <time datetime="2019-09-16">16</time> <time datetime="2019-09-29">- 29 Sep</time>
-                                    <h4 class="card-title">Final Selection</h4>
-                                </div>
-                                <p class="card-text">
-                                    The farms that make the shortlist will receive a contract for the  2019/2020 farming season to provide sorghum
-                                </p>
+                    </div>
+                </section>
+
+                <section class="container card yellow stc">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Farm information</h2>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="municipaldistrict">Municipal district<sup>*</sup></label>
+                                <select id="municipaldistrict" class="form-control" required>
+                                  <option value="ceres">Ceres</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="closesttown">Closest town<sup>*</sup></label>
+                                <select id="closesttown" class="form-control" required>
+                                  <option value="stellenbosch">Stellenbosch</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="coords">Co-ordinates<sup>*</sup></label>
+                                <input type="text" id="coords" class="form-control" required>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="card red">
-                            <div class="card-body">
-                                <div class="card-header">
-                                    <time datetime="2019-09-30">30 Sep</time> <time datetime="2019-11-03">- 3 Nov</time>
-                                    <h4 class="card-title">Land Preparation</h4>
-                                </div>
-                                <p class="card-text">
-                                    Together with our project coordinators, we will assist you  in getting your lands reading  for planting
-                                </p>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="farmname">Farm name</label>
+                                <input type="text" id="farmname" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="hectares">Hectares</label>
+                                <input type="text" id="hectares" class="form-control">
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="card blueish-grey">
-                            <div class="card-body">
-                                <div class="card-header">
-                                    <time datetime="2019-02-18">18 Nov 2019</time> <time datetime="2020-07-27">- 27 Jul 2020</time>
-                                    <h4 class="card-title">Planting, Harvesting & Final Delivery</h4>
+                        <div class="col-12">
+                            <p>or manually enter the co-ordinates</p>
+                             <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="coords">Latitude<sup>*</sup></label>
+                                        <input type="text" id="coords" class="form-control" required>
+                                    </div>
                                 </div>
-                                <p class="card-text">
-                                    Together with our project coordinators, we will monitor  and assist through the the whole journey from seed to harvest, ending with the final delivery  and payment.
-                                </p>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="coords">Longitude<sup>*</sup></label>
+                                        <input type="text" id="coords" class="form-control" required>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                </section>
+         
+                <section class="container card blue stc">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Business detail</h2>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="businesstype">Business type</label>
+                                <input type="text" id="businesstype" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="registrationnumber">Registration number</label>
+                                <input type="text" id="registrationnumber" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="coords">Number of employees</label>
+                                <input type="text" id="coords" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="ownership">Ownership</label>
+                                <select id="ownership" class="form-control" required>
+                                  <option value="own">Own</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="farmer">Farmer</label>
+                                <input type="text" id="farmer" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="generalremarks">General remarks</label>
+                                <textarea id="generalremarks" rows="4" cols="50" class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+                <footer class="c"> 
+                    <input type="submit" class="btn btn-green btn-lng" value="Register now">
+                </footer>
             </div>
         </div>
-    </section>
+    </form>
+    <section class="dvbg"></section>
 </body>
 </html>
