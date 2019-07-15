@@ -2,11 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Hello World</title>
+    <title>GrowNation | Register</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicons/favicon.ico"><link rel="icon" sizes="16x16 32x32 64x64" href="favicons/favicon.ico"><link rel="icon" type="image/png" sizes="196x196" href="favicons/favicon-192.png"><link rel="icon" type="image/png" sizes="160x160" href="favicons/favicon-160.png"><link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96.png"><link rel="icon" type="image/png" sizes="64x64" href="favicons/favicon-64.png"><link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16.png"><link rel="apple-touch-icon" href="favicons/favicon-57.png"><link rel="apple-touch-icon" sizes="114x114" href="favicons/favicon-114.png"><link rel="apple-touch-icon" sizes="72x72" href="favicons/favicon-72.png"><link rel="apple-touch-icon" sizes="144x144" href="favicons/favicon-144.png"><link rel="apple-touch-icon" sizes="60x60" href="favicons/favicon-60.png"><link rel="apple-touch-icon" sizes="120x120" href="favicons/favicon-120.png"><link rel="apple-touch-icon" sizes="76x76" href="favicons/favicon-76.png"><link rel="apple-touch-icon" sizes="152x152" href="favicons/favicon-152.png"><link rel="apple-touch-icon" sizes="180x180" href="favicons/favicon-180.png"><meta name="msapplication-TileColor" content="#FFFFFF"><meta name="msapplication-TileImage" content="/favicon-144.png"><meta name="msapplication-config" content="/browserconfig.xml">
 </head>
-<body>
-    <div class="ovl">
+<body class="dvbg">
+    <!--<div class="ovl">
         <div class="card">
             <div class="card-body">
                 <div class="card-header">
@@ -16,18 +17,18 @@
                 <a href="/registration.html" class="btn btn-green">Done</a>
             </div>
         </div>
-    </div>
+    </div>-->
     <nav class="flt">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-3 col-sm-4">
+                <div class="col-2 col-sm-4">
                     <svg version="1.1" id="backarrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 30.2 23.6" style="enable-background:new 0 0 30.2 23.6;" xml:space="preserve">
                     <path class="st0" d="M5.9,13.5l7.2,7.2c0.7,0.7,0.7,1.7,0,2.4c-0.7,0.7-1.7,0.7-2.4,0l-10-10c-0.7-0.7-0.7-1.7,0-2.4l10-10
                         C11.3,0,12.4,0,13,0.6s0.7,1.7,0,2.4l-7.2,7.2h22.6c0.9,0,1.7,0.7,1.7,1.7s-0.7,1.7-1.7,1.7H5.9z"/>
                     </svg>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-8 col-sm-4">
                     <img src="src/assets/images/hz-c-logo.svg" alt="GrowNation">
                 </div>
             </div>
@@ -43,21 +44,18 @@
                     <div class="row">
                         <div class="col-12">
                             <h2>Personal information</h2>
-                        </div>
-                        <div class="col-12 col-sm-6">
+                        
                             <div class="form-group">
                                 <label for="contactperson">Contact person<sup>*</sup></label>
                                 <input type="text" id="contactperson" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label for="contactnumber">Contact number<sup>*</sup></label>
-                                <input type="text" id="contactnumber" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="form-group">
                                 <label for="idnumber">ID number<sup>*</sup></label>
                                 <input type="text" id="idnumber" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactnumber">Contact number<sup>*</sup></label>
+                                <input type="text" id="contactnumber" class="form-control" required>
                             </div>
                         </div>
                     </div>
@@ -67,8 +65,7 @@
                     <div class="row">
                         <div class="col-12">
                             <h2>Farm information</h2>
-                        </div>
-                        <div class="col-12 col-sm-6">
+                        
                             <div class="form-group">
                                 <label for="municipaldistrict">Municipal district<sup>*</sup></label>
                                 <select id="municipaldistrict" class="form-control" required>
@@ -82,12 +79,6 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="coords">Co-ordinates<sup>*</sup></label>
-                                <input type="text" id="coords" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="form-group">
                                 <label for="farmname">Farm name</label>
                                 <input type="text" id="farmname" class="form-control">
                             </div>
@@ -95,22 +86,14 @@
                                 <label for="hectares">Hectares</label>
                                 <input type="text" id="hectares" class="form-control">
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <p>or manually enter the co-ordinates</p>
-                             <div class="row">
-                                <div class="col-12 col-sm-6">
-                                    <div class="form-group">
-                                        <label for="coords">Latitude<sup>*</sup></label>
-                                        <input type="text" id="coords" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="form-group">
-                                        <label for="coords">Longitude<sup>*</sup></label>
-                                        <input type="text" id="coords" class="form-control" required>
-                                    </div>
-                                </div>
+                            <div class="form-group">
+                                <label for="coordslat">Latitude<sup>*</sup></label>
+                                <input type="text" id="coordslat" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="coordslong">Longitude<sup>*</sup></label>
+                                <input type="text" id="coordslong" class="form-control" required>
+                                <button type="button" id="geolocation"><img src="" alt="Geolocation the farm"></button>
                             </div>
                         </div>
                     </div>
@@ -120,22 +103,11 @@
                     <div class="row">
                         <div class="col-12">
                             <h2>Business detail</h2>
-                        </div>
-                        <div class="col-12 col-sm-6">
+                        
                             <div class="form-group">
                                 <label for="businesstype">Business type</label>
                                 <input type="text" id="businesstype" class="form-control">
                             </div>
-                            <div class="form-group">
-                                <label for="registrationnumber">Registration number</label>
-                                <input type="text" id="registrationnumber" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="coords">Number of employees</label>
-                                <input type="text" id="coords" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
                             <div class="form-group">
                                 <label for="ownership">Ownership</label>
                                 <select id="ownership" class="form-control" required>
@@ -143,8 +115,16 @@
                                 </select>
                             </div>
                             <div class="form-group">
+                                <label for="registrationnumber">Registration number</label>
+                                <input type="text" id="registrationnumber" class="form-control">
+                            </div>
+                            <div class="form-group">
                                 <label for="farmer">Farmer</label>
                                 <input type="text" id="farmer" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="coords">Number of employees</label>
+                                <input type="text" id="coords" class="form-control">
                             </div>
                             <div class="form-group">
                                 <label for="generalremarks">General remarks</label>

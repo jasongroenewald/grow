@@ -8,19 +8,17 @@
 
   time {
     color: $blueish-grey;
+    @include mq(font-size, "0.85rem",'',"0.9rem",'',"0.95rem","1rem");
   }
 
   &.stc {
-    text-align: center;
     margin-bottom: 40px;
 
-    @media (min-width: $screen-sm-max) {
-      padding: 40px; 
+    h2 {
+      text-align: center;  
     }
 
-    @media (min-width: $screen-md-min) {
-      padding: 40px 80px; 
-    }
+    @include mq(padding, "30px",'',"40px",'',"50px","40px 80px");
   }
 
   @include border-radius($card-border-radius);
