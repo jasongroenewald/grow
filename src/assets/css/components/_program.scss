@@ -116,6 +116,24 @@ footer {
 nav {
     text-align: center;
 
+    #backarrow {
+        width: 30px;
+        height: 23.333px;
+        cursor: pointer;
+
+        path {
+          fill: $blueish-grey;
+          @include transition($btn-transition);
+        }
+
+        &:hover {
+            path {
+                fill: $green;
+                @include transition($btn-transition);
+            }
+        }
+    }
+
     &.flt {
         padding: 35px 0;
         margin-bottom: 70px;
@@ -130,6 +148,10 @@ nav {
         background: white;
         padding: 25px 0;
         box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+
+        @media (min-width: $screen-xs-max) {
+            width: calc(100% - 30px);
+        }
     }
 
     &.ab {
@@ -157,10 +179,10 @@ nav {
                 }
             }
         }
-    }
 
-    @media (min-width: $screen-xs-max) {
-        width: calc(100% - 30px);
+        @media (min-width: $screen-xs-max) {
+            width: calc(100% - 30px);
+        }
     }
 
     img {
@@ -344,11 +366,11 @@ nav {
 }
 
 .dvbg {
-    background: $gray-100;
+    background: url(http://localhost:8080/src/assets/images/splatlarge.svg) no-repeat top center;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    height: 60vh;
+    height: 100%;
     z-index: -1;
 }
